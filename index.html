@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="swiggyHomePage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-VP5mQm88i9DgSJoDWk8eCkqL4TxJq1yx8LMULJZ5RaVZfBzM67klQPaWbCz4+6fV" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+M9tV8zzJgGi4l8lj4IqYCeCb2smF" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="fluid-container">
+        <div class="orange-container">
+            <div class="header">
+                <div class="swiggy-icon-heading-container">
+                    <div class="swiggy-icon-container"><i class="swiggyicon fa-solid fa-location-dot"></i></div>
+                    <h6 class="swiggy-icon-heading">Swiggy</h6>
+                </div>
+                <div class="top-four-headings">
+                    <p class="two-swiggy-sideheading">Swiggy Coorporate</p>
+                    <p class="two-swiggy-sideheading">Partner with us</p>
+                    <button type="button" class="getapp-button">Get the app <i class="arrowupright fa-solid fa-arrow-up-right-from-square"></i></button>
+                    <button type="button" class="signin-button">Sign in</button>
+                </div>
+                <div class="dropdown">
+                    <input type="checkbox" id="toggle-dropdown" hidden>
+                    <label for="toggle-dropdown" class="dropdown-toggle">Menu </label>
+                    <div class="dropdown-menu">
+                        <a href="#">Swiggy Coorporate</a>
+                        <a href="#">Partner with us</a>
+                        <a href="#">Get the app </a>
+                        <a href="#">Sign in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiggy-content-holder">
+                <h1 class="swiggy-heading">Order food & groceries.Discover best restaurants.Swiggy it!</h1>
+            </div>
+            <div class="location-search-container">
+                <div class="location-container">
+                    <div class="location-icon"><i class="locicon fa-solid fa-location-dot"></i></div>
+                    <div class="location-dropdown">
+                        <select id="locations" name="deliverylocation" class="delivery-location">
+                        <option value="" disabled selected>Enter your delivery location</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="AndhraPradesh">AndhraPradesh</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <div class="search-input-holder"><input type="text" class="input-holder" placeholder="Search for restaurant,item or more"/></div>
+                    <div class="search-icon-container"><i class="searchicon fa-solid fa-magnifying-glass"></i></div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <h2 class="card-heading">FOOD DELIVERY</h2>
+                    <h5 class="card-side-heading">FROM RESTAURANTS</h5>
+                    <div class="offer-container">
+                        <p class="offer-heading">UPTO 60% OFF</p>
+                    </div>
+                    <div class="arrow-foodimage">
+                        <div class="arrow-button-container"><i class="arrow-button fa-solid fa-arrow-right"></i></div>
+                        <div class="food-image-container"><img src="https://img.freepik.com/free-psd/close-up-hamburger-isolated_23-2151604191.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" alt="fooditem-1" class="card-image"/></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-heading">INSTAMART</h2>
+                    <h5 class="card-side-heading">INSTA GROCERY</h5>
+                    <div class="offer-container">
+                        <p class="offer-heading">UPTO 60% OFF</p>
+                    </div>
+                    <div class="arrow-foodimage">
+                        <div class="arrow-button-container"><i class="arrow-button fa-solid fa-arrow-right"></i></div>
+                        <div class="food-image-container"><img src="https://img.freepik.com/free-photo/vegetable-basket_1203-7629.jpg?t=st=1746696422~exp=1746700022~hmac=4d1d673983fdb79b801f806f2cddb8ca4fc39277c6ce15f1162fb9196333d2f2&w=1380" alt="fooditem-2"class="card-image"/></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-heading">DINE OUT</h2>
+                    <h5 class="card-side-heading">EAT OUT & SAVE MORE</h5>
+                    <div class="offer-container">
+                        <p class="offer-heading">UPTO 50% OFF</p>
+                    </div>
+                    <div class="arrow-foodimage">
+                        <div class="arrow-button-container"><i class="arrow-button fa-solid fa-arrow-right"></i></div>
+                        <div class="food-image-container"><img src="https://img.freepik.com/free-psd/top-view-dining-table-without-food_23-2150943886.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" alt="fooditem-3" class="card-image"/></div>
+                    </div>
+                </div>
+            </div>
+            <div class="break-line"></div>
+        </div>
+        <div class="carousel-container">
+            <div class="page1-container">
+                <img src="https://img.freepik.com/free-photo/top-view-burger-with-fries-plate_23-2148262933.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/upma-uppumavu-uppittu-is-indian-popular-breakfast-dish-most-common-south-maharashtra_466689-77410.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/free-psd/close-up-hamburger-isolated_23-2151604191.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/group-south-indian-food-like-masala-dosa-uttapam-idli-idly-wada-vada-sambar-appam-semolina-halwa-upma-served-banana-leaf-with-colourful-chutneys-selective-focus_466689-25675.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/vada-medu-vadai-with-sambar-chutney-popular-south-indian-snack-breakfast_466689-1589.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/high-angle-view-fruits-bowl-against-white-background_1048944-25721965.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/bolognese-pasta-with-basil-fresh-tomatoes-gray-background-traditional-italian-dish-top-view-close-up_166116-4357.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/schezwan-noodles-vegetable-hakka-noodles-chow-mein-is-popular-indo-chinese-recipes-served-bowl-plate-with-wooden-chopsticks-selective-focus_466689-33247.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/veg-samosa-is-crispy-spicy-indian-triangle-shape-snack-which-has-crisp-outer-layer-maida-filling-mashed-potato-peas-spices_466689-72927.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/punjabi-chana-masala-chole-masala-is-authentic-north-indian-style-curry-made-with-chickpeas_1184104-341.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/free-photo/meatballs-green-peas-carrot-with-tomato-sauce-isolated-white-background_123827-30945.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+                <img src="https://img.freepik.com/premium-photo/indian-sweet-motichoor-laddooa-a-bundi-laddu-made-gram-flour-very-small-balls-boondis-which-are-deep-fried-soaked-sugar-syrup-before-making-balls_466689-69751.jpg?uid=R198412106&ga=GA1.1.974280492.1734877119&semt=ais_hybrid&w=740" class="food-image"/>
+            </div>
+        </div>
+        <p class="restaurant-heading">Discover best restaurants on Dineout</p>
+        <div class="restaurants-container">
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container">
+                    <div class="restaurant-name"><p>Lake District Bar & kitchen</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">4.1</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>Asian-North Indian</p></div>
+                        <div class="price"><p>Rs.1500 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>Necklace Road,Hyderabad</p></div>
+                        <div class="distance"><p>6.6km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 20% off on pre-booking</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+3more</p></div>
+                    </div>
+                    <div class="bank-offer-holder"><p class="bank-offer-heading">Up to 10% off with bank offers</p></div>
+                </div>
+            </div>
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container card2">
+                    <div class="restaurant-name"><p>Jewel of Nizam-The Minar</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">4.1</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>Hyderabadi-Mughlai</p></div>
+                        <div class="price"><p>Rs.2500 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>The Golconda Hotel,Masab Tank..</p></div>
+                        <div class="distance"><p>3 km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 20% off on pre-booking</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+2more</p></div>
+                    </div>
+                    <div class="bank-offer-holder">Up to 10% off with bank offers</div>
+                </div>
+            </div>
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container card3">
+                    <div class="restaurant-name"><p>Hummus House</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">4.7</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>Mediterranean-Middle Eastern</p></div>
+                        <div class="price"><p>Rs.1100 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>Banjara Hills,Hyderabad</p></div>
+                        <div class="distance"><p>4.5km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 20% off on pre-booking</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+3more</p></div>
+                    </div>
+                    <div class="bank-offer-holder">Up to 10% off with bank offers</div>
+                </div>
+            </div>
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container card4">
+                    <div class="restaurant-name"><p>Masala Republic by Dadu's</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">3.9</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>Continental-Chaat</p></div>
+                        <div class="price"><p>Rs.1100 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>Banjara Hills,Hyderabad</p></div>
+                        <div class="distance"><p>4.3 km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 20% off on walk-in</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+1more</p></div>
+                    </div>
+                    <div class="bank-offer-holder">Up to 10% off with bank offers</div>
+                </div>
+            </div>
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container card5">
+                    <div class="restaurant-name"><p>Rasa by Ashoka</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">4.4</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>North Indian-Mughlai</p></div>
+                        <div class="price"><p>Rs.2400 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>Best western Ashoka Hotel..</p></div>
+                        <div class="distance"><p>4.2 km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 20% off on walk-in</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+1more</p></div>
+                    </div>
+                    <div class="bank-offer-holder">Up to 10% off with bank offers</div>
+                </div>
+            </div>
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container card6">
+                    <div class="restaurant-name"><p>A'La Liberty</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">4.1</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>Chinese-North Indian</p></div>
+                        <div class="price"><p>Rs.1800 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>Leela Gopal Towers,Banjara..</p></div>
+                        <div class="distance"><p>4.2 km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 20% off on walk-in</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+1more</p></div>
+                    </div>
+                    <div class="bank-offer-holder">Up to 10% off with bank offers</div>
+                </div>
+            </div>
+            <div class="restaurant-card-container">
+                <div class="restaurant-image-container card7">
+                    <div class="restaurant-name"><p>Imli Sarai</p></div>
+                    <div class="rating-container">
+                        <div class="star-icon-container"><i class="star-icon fa-solid fa-star"></i></div>
+                        <p class="rating">4.2</p>
+                    </div>
+                </div>
+                <div class="restaurant-description-container">
+                    <div class="food-type-holder">
+                        <div class="food-type"><p>Continental-Italian</p></div>
+                        <div class="price"><p>Rs.1500 for two</p></div>
+                    </div>
+                    <div class="restaurant-address-holder">
+                        <div class="address"><p>Banjara Hills,Hyderabad</p></div>
+                        <div class="distance"><p>4.2 km</p></div>
+                    </div>
+                    <div class="table-booking-holder">
+                        <div class="booking-icon-holder"><i class="booking-icon fa-regular fa-square-check"></i></div>
+                        <div class="booking-heading-holder"><p class="booking-heading">Table booking</p></div>
+                    </div>
+                    <div class="booking-offer-holder">
+                        <div class="prebooking-icon-container">
+                            <div class="percentage-icon-container"><p class="percentage-icon">%</p></div>
+                            <div class="percentage-text-container"><p class="percentage-text">Flat 35% off on walk-in</p></div>
+                        </div>
+                        <div class="available"><p class="available-heading">+1more</p></div>
+                    </div>
+                    <div class="bank-offer-holder">Up to 10% off with bank offers</div>
+                </div>
+            </div>
+        </div>
+        <div class="text-scanner-container">
+            <div class="black-container">
+                <div class="text-black-container">
+                    <div class="icon-swiggy-heading-holder">
+                        <div class="icon-swiggy-holder"><i class="iconswiggy fa-solid fa-location-dot"></i></div>
+                        <div class="swiggy-heading-holder"><p class="swiggy-heading2">Swiggy</p></div>
+                  </div>
+                    <h1 class="text-black-heading1">Get the Swiggy App now!</h1>
+                    <p class="text-black-heading2">For best offers and discounts curated specially for you.</p>
+                    <p class="scan-text">Scan to download</p>
+                </div>
+                <div class="phoneimage-container">
+                    <img src="https://media.istockphoto.com/id/188064319/photo/qr-code-on-smart-phone.jpg?s=612x612&w=0&k=20&c=5slcVC1OGq5WRmsXsS3OvStmME-xgDdh4TXb1W9Pkxk=" class="phone-image"/>
+                </div>          
+            </div>
+        </div>
+        <div class="cities-food-grocery-delivery-container">
+            <h1 class="cities-food-delivery-heading">Cities with food delivery</h1>
+            <div class="cities-food-delivery-holder">
+                <button type="button" class="order-food-button">Order food online in Bangalore</button>
+                <button type="button" class="order-food-button">Order food online in Gurgaon</button>
+                <button type="button" class="order-food-button">Order food online in Hyderabad</button>
+                <button type="button" class="order-food-button">Order food online in Delhi</button>
+                <button type="button" class="order-food-button">Order food online in Mumbai</button>
+                <button type="button" class="order-food-button">Order food online in Pune</button>
+                <button type="button" class="order-food-button">Order food online in Kolkata</button>
+                <button type="button" class="order-food-button">Order food online in Chennai</button>
+                <button type="button" class="order-food-button">Order food online in Ahmedabad</button>
+                <button type="button" class="order-food-button">Order food online in Chandigarh</button>
+                <button type="button" class="order-food-button">Order food online in Jaipur</button>
+                <button type="button" class="order-food-button">Show More</button>
+            </div>
+            <h1 class="cities-food-delivery-heading">Cities with grocery delivery</h1>
+            <div class="cities-food-delivery-holder">
+                <button type="button" class="order-food-button">Order grocery delivery in Bangalore</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Gurgaon</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Hyderabad</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Delhi</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Mumbai</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Pune</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Kolkata</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Chennai</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Ahmedabad</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Chandigarh</button>
+                <button type="button" class="order-food-button">Order grocery delivery in Jaipur</button>
+                <button type="button" class="order-food-button">Show More</button>
+            </div>
+        </div>
+        <div class="last-section">
+            <div class="footer-section">
+                <div class="footer-swiggy-icon-holder">
+                    <div class="swiggy-icon-heading-container">
+                        <div class="swiggy-icon-container swiggy-icon-container2"><i class="swiggyicon swiggyicon2 fa-solid fa-location-dot"></i></div>
+                        <h6 class="swiggy-icon-heading swiggy-icon-heading2">Swiggy</h6>
+                    </div>     
+                </div>
+                <div class="swiggy-details-container">
+                        <div class="company-holder">
+                            <p class="details-heading">Company</p>
+                            <p class="details">About Us</p>
+                            <p class="details">Swiggy Corporate</p>
+                            <p class="details">Careers</p>
+                            <p class="details">Team</p>
+                            <p class="details">Swiggy One</p>
+                            <p class="details">Swiggy Instamart</p>
+                            <p class="details">Swiggy Dineout</p>
+                            <p class="details">Swiggy Genie</p>
+                            <p class="details">Minis</p>
+                            <p class="details">Pyng</p>
+                        </div>
+                        <div class="contactus-legal-container">
+                            <div class="contactus-container">
+                                <p class="details-heading">Contact Us</p>
+                                <p class="details">Help & Support</p>
+                                <p class="details">Partner With Us</p>
+                                <p class="details">Ride With Us</p>
+                            </div>
+                            <div class="legal-container">
+                                <p class="details-heading">Legal</p>
+                                <p class="details">Terms & Conditions</p>
+                                <p class="details">Cookie Policy</p>
+                                <p class="details">Privacy Policy</p>
+                            </div>
+                        </div>
+                        <div class="available-holder">
+                            <p class="details-heading">Available in:</p>
+                            <p class="details">Bangalore</p>
+                            <p class="details">Gurgaon</p>
+                            <p class="details">Hyderabad</p>
+                            <p class="details">Delhi</p>
+                            <p class="details">Mumbai</p>
+                            <p class="details">Pune</p>
+                            <button type="button" class="cities-button">685 cities</button>
+                        </div>
+                        <div class="lifeatswiggy-sociallinks-container">
+                            <div class="lifeatswiggy-container">
+                                <p class="details-heading">Life at Swiggy</p>
+                                <p class="details">Explore With Swiggy</p>
+                                <p class="details">Swiggy News</p>
+                                <p class="details">Snackables</p>
+                            </div>
+                            <div class="sociallinks-text-container">
+                                <p class="details-heading">Social Links</p>
+                                <div class="sociallinks-icons-container">
+                                    <i class="sociallink-icon fa-brands fa-linkedin"></i>
+                                    <i class="sociallink-icon fa-brands fa-instagram"></i>
+                                    <i class="sociallink-icon fa-brands fa-facebook-f"></i>
+                                    <i class="sociallink-icon fa-brands fa-pinterest"></i>
+                                    <i class="sociallink-icon fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="break-line2"></div>
+            <div class="download-apps-container">
+                <div class="download-heading-container"><p class="download-heading">For better experience,download the swiggy app now</p></div>
+                <div class="appstore-holder">
+                    <i class="apple-icon fa-brands fa-apple"></i>
+                    <div class="text-appstore-holder">
+                        <p class="text1">Download on the</p>
+                        <p class="text2">App Store</p>
+                    </div>
+                </div>
+                <div class="playstore-holder">
+                    <i class="google-icon fa-brands fa-google-play"></i>
+                    <div class="text-playstore-holder">
+                        <p class="text1">GET IT ON</p>
+                        <p class="text2">Google Play</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

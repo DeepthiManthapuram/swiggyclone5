@@ -1,0 +1,2290 @@
+*{
+    padding:0;
+    margin:0;
+}
+.fluid-container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.orange-container{
+    width:100%;
+    min-height: 100vh;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.swiggy-icon-heading-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 9%;
+}
+.top-four-headings {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.top-four-headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    min-width: 50%;
+}
+.swiggy-icon-container{
+    display: flex;
+    height: 3rem;
+    width:4rem;
+    background-color:orangered;
+    border:0.1rem solid white;
+    border-radius:1rem;
+    align-items: center;
+    justify-content: center;
+}
+.swiggyicon{
+    font-size: 2rem;
+    color:white;
+
+}
+.swiggy-icon-heading{
+    color:white;
+    font-size: 2rem;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.two-swiggy-sideheading{
+    color:white;
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.getapp-button{
+    background-color:orangered;
+    border:none;
+    border:0.1rem solid white;  
+    border-radius:1rem;
+    height: 3.3rem;
+    width:8rem;
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+}
+.signin-button{
+    background-color:black;
+    border:none;
+    border-radius:1rem;
+    height: 3.3rem;
+    min-width:7rem;
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+}
+.swiggy-content-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    width:100%;
+    padding:1rem;
+}
+.swiggy-heading{
+    color:white;
+    font-size: 2.8rem;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    width:60%;
+}
+.location-search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:3rem;
+    padding:1rem;
+}
+.location-container{
+    display: flex;
+    flex-direction: row;
+    border-radius:1rem;
+    width:25%;
+    height:3.5rem;
+    background-color:white;
+    margin-right: 1rem;
+}
+.location-icon{
+    width:15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.locicon{
+    font-size: 2rem;
+    color:orangered;
+
+}
+.location-dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:85%;
+    font-size:1.2rem;
+    border:0 solid white;
+    color:grey;
+}
+select{
+    border:none;
+    color:grey;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:25%;
+    background-color: white;
+    height: 3.5rem;
+    border-radius:1rem;
+}
+.search-input-holder{
+    width:100%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.input-holder{
+    border: none;
+    font-size:1.2rem;
+    width:85%;
+}
+.search-icon-container{
+    height: 3.5rem;
+    width:15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchicon{
+    font-size:1.6rem;
+    color:grey;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:auto;
+    width:70%;
+    margin:1rem;
+    margin-top:3rem;
+    padding:1rem;
+    
+}
+.cards-container2{
+    display: none;
+}
+.card{
+    padding:0.8rem;
+    display: flex;
+    flex-direction: column;
+    height:20rem;
+    width:20rem;
+    background-color: white;
+    border-radius:3rem;
+    overflow:hidden;
+  
+}
+.card-heading{
+    font-weight: bold;
+    font-size:2rem;
+    font-family: "Roboto";
+}
+.card-side-heading{
+    color:grey;
+    font-size:1.5rem;
+    font-family: "Roboto";
+}
+
+.offer-container{
+    height: 2rem;
+    width:7.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: pink;
+    border-radius:0.7rem;
+    padding:0;
+}
+.offer-heading{
+    padding: 0;
+    margin:0;
+    color:orangered;
+    font-weight:bold;
+    font-size: 1rem;
+    text-align: center;
+}
+.arrow-foodimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5rem;
+}
+.arrow-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    width: 3rem;
+    background-color: orangered;
+    border-radius: 2rem;
+
+}
+.arrow-button{
+    font-size:2rem;
+    color: white;
+}
+.card-image{
+    height:7.4rem;
+    width:10rem;
+    border-radius: 1rem;
+}
+.break-line{
+    height:1rem;
+    width:65%;
+    background-color: white;
+    margin-top:2rem;
+}
+.carousel-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:20vh;
+    width:100%;
+    margin:1rem;
+    padding:1rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.page1-container {
+    scrollbar-color: orangered #f0f0f0; /* thumb and track */
+    scrollbar-width: thin;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.food-image {
+    flex: 0 0 auto;
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+.restaurant-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    margin-left:2rem;
+}
+.restaurants-container{
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+    width:100%;
+    padding: 2rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scrollbar-color: orangered #f0f0f0;
+    padding-bottom: 1rem; 
+    gap: 1rem; 
+    
+}
+.restaurant-card-container{
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+    margin:1rem;
+    width:23%;
+    border-radius: 1.5rem;
+    box-shadow: 
+    -4px 4px 10px rgba(0, 0, 0, 0.2),  /* left shadow */
+     4px 4px 10px rgba(0, 0, 0, 0.2),  /* right shadow */
+     0px 6px 15px rgba(0, 0, 0, 0.3);  /* bottom shadow */
+}
+.restaurant-image-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    height:50%;
+    width:100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUQEhISFRUVFRcVFxUVFRUVFRUVGBUXFhUVFRUYHSggGBolGxUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGi0fHSUtLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLi0tLS0tLS0tLS0tLS0tLSstLS0tLf/AABEIAKIBNwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAEDBQYCBwj/xABBEAABAwMCAgcFBgUCBQUAAAABAAIRAxIhBDEFQQYTIlFhcZEygaGxwSNCUnLR8BQzU5KyYuEWJEOCwhVzhKLx/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAIhEAAgMAAgMAAwEBAAAAAAAAAAECERITIQMUMQRBUTIi/9oADAMBAAIRAxEAPwAuxKxEWJ7F9TR8bIN1aViIsSsTQyD2JWIixKxNDIPYl1aIsTWK6GSAsTWIixKxNEyDWJdWiLEurTQyDWJWIixKxNDIPYmsRNia1NDIPYmsRNqVqWXINYmLJwUTYmsWHTNx6IGMjAAA8F2FJYmsXJwR1U2VfGGtaOttl3sjaJP3iOZgLP8AVOdkAnPdzO3llXHEajqzuqpgEDcxz2Jk7bo7g+lcynDsGSY9B9F5nDUuj0qdR7B26N1QU7xaxrAInJPlyRHEOHisQXE4iByiZd7yPkjCE0Kvx0F5LKHjTBIpNFrWieeZyq8UHVH2j2icmDAA8ByCsOJ13VHOY1uGbxvjBnwyUNUovY0VAXNLpaTMEthloHofReWS7OoFxCk4VZebg2B2iJIbAghpxt5+9Ca0y5x7XtH28uGdie9G6ilaQHh04MD1g/I5xnuhVVYxmFO2Ulp6QPc1j3BkmJIm3xIVZqtOWuIwQPvDY+SlNc8sKGpcckkrcU19NE+i1RpuD27gz/sVYcc11CswuAcKpLZnIwIMH97KiD4xCd7CV01SozhN2CViTk7o/R6ltrg7rHOMbZAA3MIarTXFGk67G+/ks9UaaNHwvhwc9pqRTpEkS4tDnuAgjvGfT4qz1tIUyGM6pzQbwwNdUdJgXFreQ7O5z8BTUOIEtFKGyYBc43OMQBEmG4ACtq2haGFjaodVfaIYT37dn2sYzA+Cyq+JHKSaMzxbSFr3AGIP5QTztHITOOSdXfF+HFrGUQ32S605Lqk5c6BsNt0lGqZpS6PTerT9WibErF9DR48A3VpWImxKxNDjBerSsRNiVibHGC2JWInq0urV0TANYl1aJ6tKxNDAL1aViKsTdWmhgGLE3Vorq03VpocYNYl1aJsTWJscYMaaaxFWJurTY4wXq0urRJYlYmxgFsTdWiurTWJoYA2aZoJIABOTHNdWIosXJYllywUsXBYjDTXLqayyxQCyiASQACdz3qj4hq2PfJvNvsAGASDmeYzGfBaDW032wwZJAnGBzOfBZmrw6oCJY4E5gZ/e68fmdfD0wBtTqGuvJbc84uOw5dlnfykn4qsqaUkxB8h5StNX4K5jJuEmAW4EkkdnO+fkuqFBvWMp1XQCwnvIf2oLu4gQc9y5d2dDKanT0xEAgRuf0Hh3KNoaOy3Y/ezjv3VrqadNpI9rBF5kCeVrf19FUVhvBEfr3LP3orkduqNEsAa4d1rdz/qifcrGn0cIax9RrQ1wJIY6SCACA4gwPaBgcoVTpq5YLRntTB22iY71r7uq0tE147Rc9oHa7LotwPInO0qpdkTMdq+GkOIaSByLsjynclV1QFptdg94OD5HmtBxfisusp5A3Ocnw74QT9EavZfFMhpNzgQIGZJ55IAA71q6+mrK/T9mXB7Rvg+0T4N+q1PQ7UtLnNOXkSHZkgbt+qxZZDgBJ/cqw0OsdScHNMFuR8l0ilF6MzWo0en28+aSq+EcavpudUHaaRs3BBgDnvukuy8kX2ebjZv7EurRNiVixs7cYNYmsRViVimxxgvVpdWibErFdjjBeqS6tF2JrE2OMF6tN1aLsTdWmxxgvVpjTRdiVibHGCdWlYirE3VpyDjBerS6tFdWmsV2OMF6tNYirErE2TjBerTWIosSsTkGATq0xYiyxMWJsYBLExYi7UxYmycYJYmLEVYmLE2MAbqaqOM651KA1hMibiDAM4/fiFoSxR1KIOCJB5FRu0aUTz59DUVTMVHXEgHMY3HgEHqtOWNF0gnby2+c+i0nSDWOc91Jl0DBAB7R3PuH0KzlSkXGzmO88l5pS7NFdUqmc5+SHqEFHVKIDTO/KO/xQJpyY2A5kwtqgRtPoEXxDiFSqym17pawWNGxDRGNvigg6AcHxj6rkDtA2zzg7R4wjB1pGgP+AcYhp5OIKvNFVquuNdtGpSbu01BTuLcw17TgneDvgKoq2GDIBIyBkDz7kGdSQXBrnAdwO4EyTCynZLIeJYe4gFouMA8hJUbH8/3sutULpIyO/OPGO5Q0ZABIMcjG66/o2maJtWk6jb2y+REulsczaIA2HfukqE6hzRABOccvVOvM/HL9MdH0talC8+4l0xc8uDAQwiLTF20OAcM75mVa9GXuquaXPdLYexz3XlzMgtAOxgxJyro6JpmttSsUgaurVNm8kNiVimhK1NjBDYmtU9qUJsZILUrVNalamxkhsTWKe1NamxkhLE1intTWpsYILErFNalanIMEFiaxT2prU5BggLUrVPamLU5BggtTWKe1NanIMEFiYsU9qa1XkJxg9iYsRBauYTkLggsXLqaIIXJanITjM/qdfNU0qNMPqAEOcTbaPPnkrJ1dM4VCyDdJb3CBjE8pC9DboaYeaoaA92C7mf3CbV6QPaWkemDEyRPKdvesuVmeNnlmo0zh9o5hjlMx3CO9A1ocIiDz+gA5rb1uAVage97QI2GS424AaPACAq8dGjVfa0NdtNQH7PbIB+8RPzwtRkjOWYZ7IkfDl5rvTDxIjnsfgtPqOANL+roudVcJkdW5sEbxvPwVfxLo8+m614E++J7hIz5iR4ro5xaGCq1jZ3ABxmY5bKKvTLWOIDWio3LoJxM2zykgY8laP6P1B91p8nD6oV/A6zQTYY2JB7+WPL4KJV+w4lE1v3ZGRjx8SomyBJkgSAM8u5HajRWuggie8c1HqtIWiSPMj6/BdTKVHbNvDfvhMonVodNoB+GySy0bs2tPROdc5gDrZuDXNB55ZEhwwdl6L0WJ6sGoxrS1ohxbY5ojtNIObcSDkEEZwsBwWkKrt2xIFpAJdg7Eg93qQtFxGi9zpFFwqWgB0mBkttaD2RiMRGTO8rzy76JDrs9BYZyuws/0cbVa1s+wRPeQecybgZ5G7zCvQ5eWUqZ6o9okSXFyVyzs1k6SXN6V6nIKHSTXpFycgodJNKUpyFodJNKUpyCh0yRcmuTkFDwmKa5NcnIKHhckJXJi5OQUJJNKYuU5C5EQmTXJi5XkGRJimLlySnIXA6Ypi5clyvITI5XKSZyqmRxKyrxvTwWl1w2ItcQeR5QQhX9IWh4DW/Zgd3aONg2QAsuzxUjjPNfSX4/f3o8T8rNKelVMbU3nzIH6oHiGsFUiqBbcMA5ODG+O5ULyCrWgPsmeR/yK1OCirQjJyYK9/wC4KjfrixpAt7W8icCY+PLwC71AhAa50NYfE/RZ8fZvyqiu1zb5cbcnAgb+kjmqvqpdHLwz81aVH9+8efx5c0JVpPcbW5PKN/QLrX6Z5u18KbXaSDBJ74jI8EkfV0Juh72gzkSXH9+9JTr+m1P+h2i4g6i5tSmS0z3fWMjGy9K4Txpw0/W1iJkgG4GT3YAAGO8rCVKoc0NMxHZxMQY+XyQT9c4ODXB0NMQcHfN2JmfReSlNFjJxPSqXScSGupuuJAAZ2gR+IRuDmFds1WJ28DusJwZ9zi62oWg4PacI5AidxO8+5Xv/AKgZjq6kd8fRc5fj38O0fK19NB/EpfxKohrj+Cp/akNcZ/l1POFn1Wa5i9/iUv4lUjdWYJsfjlG/kkNW78D/AEVX4rJzF4NQnGoVGzVn8Dx4wum6t0/y3+ieoxzF4K6frlTN1TvwO57rr+MP9N/osP8AEkXmRcCsn65Ux1jo/lvnuhdN1bv6b/TCnqyLzotjVTdcq0ak57D/AE3SbqCZljx7t1V+Kyc6LE1UxrKv64/gf6JGsfwP8oWl+Iyc4caybrlXt1Dv6b/gl1zv6b/Qeq16jHsB5rJjWQRqu/A/zhcms6f5b/gnqD2A3rk3XIJ1Z39N/wAEutd+B3onqD2AzrU3WoM1Xf03+4Lg1X/0z7t09QvsB3WJXqu6+p/TP79ygqaqt/SMd059U9Rj2EXFyTjg+Spxra39Ieh/VdnXVoM0xz5E/GcK+ox7CMmHck5PIBQuXemIDpJjx8V9K6PMPVomJIPj+itqZ+yYM+yqmrqnAG+32YhpmTG48Mgq0pTZTH+hvP8A0grn5n/yb8S/6BNYgOJDsM/7voj9fhA8RfAonuk//YLj4X8O3mX0gp6F0XFuNhJjuPl696rq9UNd9/EggdiMbSj61Z9trXNIDi8vvExtaWxI3HP3SqfV1JdIPqvS1Z5Kslpua0OexmZG7zMHfO2/h3pICgxr3Q94Y2MkmPKB5/NJcJRV9ijRcUoMoSwOutw4gQHHmAQRjMd+DlV/DKLqlSIt8N4G8CTn1RNWN85HPYeGF3pKzmgBsjlLZHuMLjpmj0Dg/D2U2tgy8tBJwJHkMbzkyfFWPVqj6N0Hw2o5zxIMtddO+N8Ee6fFaDrPBemPz4ZbRH1a6FNd3+CV6tE0c9Wn6tPeVSaTjT3a2rpYbYxlwMG6YZIOY3cVaJpF31afq0g8pSVBoexdWLkEp895QaOrE9i4Wc6Q6kjVaRgJHbBMHe5waJ9ClDRpgxPauQ1OGoRyHtC5qva0FznAACSSQAAOZKeFU9K5/hnNbu8tYPElwx8CqiaLVhaRIIIOQQZBHgngILh1VjaVNjnAOaxjT5hoByiW6hhIaHtkyQJEkDcwtOLX6MryJ/Gduc0CScDKh0upZUYKjDLXCQYI8NihuJ6phpljXtN4LZaQbZEShuE6ltGk2kQ51oIuwJyTt71VBtWhLyJfS3kIVuuaaxoQbgy8nERMR57H3qXSaxtRl47IkjtQDgwefgqTRVm/x1ao5zA0staS5sGCwYz4FYNqy/J8Pig9Hr+sqVaYbHVFomdy4EnEYgghCca4w+mWigxlWRMiXQZOOyfAeqpeHvrNdVqVGOph5uls5MuJET4rUI6MznlWabi2uNGk6qG3ERAzkkxyRknfCyVfiZc0j7Y+Z2+BQJ4mG/h/7nyfRpHyW+NL6zK8k38Rr+Da91akKpDRLngAA7BxA57wAp9fqS2m6IuLSGjaXQYC8/1HSB7KZZTqsa0zLQwn2j2u08SZJVdpuMMDrmRdsTaR81z6vv4dsycevpYv4bWaJLPOC0/AGUQzhbjTLiCCMQREg+e6EqcXqEHI+I28iqypxJ57h7gf8pVll/LNeNeSP2mE6xkWCBhsHxNzt/3yWgpGGt/I3n4LIsr1XODrX1Gt3a2B5YA2WvbUDmMJaG3NaS0wLZA7MEYXHzf5O3h/3QFr3ScfNR8U0hLKbuQYT6uP6LvWgA7g+9qG6Sa+wtpXvaDSZcGtaQclwyc8+S8/jttJHp8lJNsqNMexXwJ6vEjb7RmyrN1HW1tZgd9mYIgkteMTP0RPD3OY9r6lNxbziNucZXtkmlaPFFpvsB1IG3ckq4ubdUJYHDJAddgXgfdcPxD0Tq0SzTSC0WXYGTjPxPrKP4NrKlN1tMC44OLjBPcQQm4fwXUOIaKTgx0GeyYBME7iMg/7xK2Om6LMY9j2ucIm4THdEOGYGcc15stmbLDg1Wo9l1UGTBk435W8o/cKwtTgIPWcVpUnim8kEi4TtEkb+5dV0ZqwyE6p9frC60tBgTlpkZjuQHEuKVGUXOY7IjcAnfuK7R8alG7OM5SjKqNRasbwN13E9Qf9NQf21GN+iEodItdb2GGpJPaNMkNiIEiBz5oNlfVMqOqjqKL3zc8vpNcbjc72nk5OcBYqjslZ6UAnhYbgvSA0qjnarVio0sIDWFz+1LSDhoGwPPmrJ/TqhIDWVDJicADz5rJcs1AC6hU+m6SUXbmPMkfMR8VaafW037O+vxEqDLJQxZHpFTcdfp4aSGuozAJgdY4knu3Vj0t1rqbZpVM2j2TOS4zjyWNdrdS7d1YjzcB+i7Rgqts5NytpI9OfUa3dzR5kIPWcWotY62rTutMSZAdGJA5SvNXuP3nsHm8E+gJK4NVnOp/a1x/yhMwX7FTZp6vHapn/AJtgHKygT/lCEqcVJIL9RXqQQ6LabBI8MqhOqpjlUd5lrfoVwdaOVNnvLnfUD4K6iviLxyf1mkqdJW8qX9zz8gAoW8eqFweyky4AgENe4gHBGTCz/wDHP5Wt/K1o+IEqKpqXu9p7j5klV+Vskfx4o0dNxcC6p1bDOxtp48BhcB3Np94OPVZqVbcPrCwCe/5lcJduz1Q66BdXVhziSTBO+VxT19JpkirMcrYyoeI1BLs8ygHDPp3pQujQ0da1+wI84+imv7iqOhWDTuPl81YU64PNSjVkWpqS4yZzzyoLktTUAJkjdc02Od7LSfPA+OVaMtnQpOqGxolx2HfGfonp8D1Df+kT7wrvo7wuoKzKjo7MmIPMEb+9bptNaSMSn/Dzijw+vsaTh52/QlcUuCah3/Tt8z9BK2/SNlXqHdRIqdm0iJw4Xb42lYep0h1lLFVr/PLD65b8Fcom2aLgHC6tC6YN0TiNpjn4qPiVdwqEAxHvzjvHmqGn0mLvar6hn9rh6iD8FFxHiwALxUFTlDqgpuce/Ix37LE1aqjcHTuwrW1AS2DAac7Z81rurD2tdv2W/ILzk8Rpx/Nb5SFaabpb1bA0PouA2BJDu/dYhDLs3ObkqNLX4cw5LW+g96GPDWjYBZ5nHK2oo4qhtS5whkBpAggAjfBCqHubcG1q1YOMYcTnLRyb4uzPILtZyo0HGODUix5bSptcYy24feBOJhJZ3W8PaxpcX1cETFw72kZ37Td/EJKiz2HhGg6kEXSDyPLyPd4fEqyAQ/XsG72+7Kca6n3uPuhcEmZCgFjemw+2Z/7Y/wAnLVt1o5N9Ssj00qzWYcfy/wDycq0zUPpUUKzmGWuLfIws9q+L13OddWqYJ+8Rz8FdByympd23fmPzVidJBL9Q53tOcfMk/NSafTvf7DHO/KCR6qvvTUdS8TD3DE4cR8lproi+mgo8D1LtqTh54RDujldovcAA3JmRtncrLf8AqNX+rU/vd+qZ+pc5puc50OA7Tidx4rGZ/wBNKUP4a7R172ghGMkZGD4YKo+DvhgVvTqI1RUcca19UWAVagGcXEd26pnVSckknvJn5o3jj/Y9/wBFVXKr4Yl9CA5Pchr0960QnuTXqC9MXoAi9K9DF65dVA3KoCrlsejmjp1KDHFrS4F2YE+04b77LD0bney1x8Y/VejdE9MW0Gg79o+riVUYk+h3cBokzYJ703/DtP8ACr9lNTimqc7Mx/w9T/D8AuR0epAza2e+IPqFqDTUZZ4ILZnG8CpzNonv5o+hwlo5K0a3wUrGoLYPpdIGnCMtTj3JnlSwRPAQmootcD2Wkxz5nlKJe5QOcrZaMDxzhYeSabKYcPapubY6fBzf/wAKyWtoMBioyvT9wI5bGPqtz06Ja6lUBtkFpIPj/uqAcTe0Q8NeNpOJkbeM5/ZWbaOnTKbT8N0r8/xD2/maB8grLT9DqVT2NQHeTmz6QlXGmdM02tc67JbzJi4O5wR5ZKFZw2kT9nUewXbXDDYxBtJJu+B5K6FEnHeAHSUCQ4mX3AyJBiMEe70T6l5pkU6w6xtrXtcW5LSJnaDzEeCF1lLUtp5qCqyJLSZg7EBudu/EgoLWcWqODDUYwhrQGlpANsSAYPd6GVAFaytSdsQ3xIJafHAlrvCPTZJA/wAayrgiN8E3b8xPOABuPLAToKPYKYRdMIWm+FMKoWjnQZTWY6ZO+0p/k/8AIq7OshZ3pLdVtgkW7RHxxsstGo9OyoD1ltU7tu/Mfmrtz3tNrm+RGQf0Werkl7oBOTt5qJHRse9csd7XlHxUQJOA1xPgFLT0tT8JBJ8/kq0SzgSnnsu82/VEN4dUO7nfJS1NI4ANM743OyOwmiw4XW7IVtTqLPUNE8eySPA7eiPp1ns9tp/MMj03UcTUZon4w/2fI/RVhcjOLEi0QefLyVW55mA1xP73KiQk0TXpi9PS0FV3c0epR9DgM+1c7z29FujDkVfXjYGT3DPyU1OlUdsyPzfoFpNNwYDZoVpp+GDuSiaMlQ4Q93tE+7Ct9FwFo+6tLQ4eO70R1LShUzZUaThQHL4LScPo2jkuadKOSLpIRsmYQu7lGCmwpZCQrkrklclyWDtMSuC5K9AdFxXBeUxd+9lE9yhTp1RQvqLl7lC5x7kNJFB05ZdpiRuHY8MH9FjGy5jDmXtDvOQJ8TmJju5redI2XaeoPCfisLpmzpqRPfUpu/7ahcATP4XoaRxVpXTzuyN7nxaYDSYsAPtADZDPoNaCboMOILSLS4PggN/DEcueCZCsKYukEF0kS0N/mEhzYkuyxt7R7gpKLhcCbiX9l7vswO2yw02Rki9vu3MFQpU69zqIDg+4HImJz4jCEPFrmw9stO/KSNsjnk+qI4uZoMMzg535mYPcqRlY9XZJidrjG4+76/vcULqsoPyC5pJne4fHPxSQtSDJMk4zPu96SpD2amcLqUkkMI75IDXJklSlTXG6zdAXPfdnJ3ynSVAfTaO4IimEkkMkpC6YEkkNEgaO5d0wkkgAeJNFzWwIzjl6KWgwYwPRJJCB1NokYCsqASSQMOphFUwkkhlk9MKZiSSEJmqVqSSMDp3J0lkEZTOSSQCC5SSQpwFDVTpIUjZuo6qSSGgHig+xqfkd8l5/wk/Yf/Ld/jR/UpJIVEenyaxOSKTCPAm6SEW+k2X9kYvjAx/zIbjuxjySSQpS8WM0RP46vwqOAWfp/X6hJJQoY7Mz4fJMkktmT//Z");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSotHM4wLtN0ROG_RhcaeytZiP5-KjRzaD-yA&s");
+}
+.card3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWdw3KU7uSjhaf1d6uOjBAKNK_HVx_rXOjog&s");
+}
+.card4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4SAfEGLwhVENFUaQbOWkiVjXu-B7rwVPELA&s");
+}
+.card5{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq1wMpU53VaNhA1VOEsCjEFle6WqZ1LNilhg&s");
+}
+.card6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx0PA3HV3I7sovNfligRyJ6qjdjaXpwOnBSg&s");
+}
+.card7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCvsd2WQhk_V-ckCbw4U1s43Rweu31NRIQA&s");
+}
+.restaurant-name{
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:4.7rem;
+}
+.star-icon-container{
+    height: 2rem;
+    width: 2rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.star-icon{
+    font-size: 1rem;
+    color:white;
+}
+.rating{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.restaurant-description-container{
+    display: flex;
+    flex-direction:column;
+    padding:0.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.food-type-holder{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.restaurant-address-holder{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.table-booking-holder{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width:38%;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    
+}
+.booking-icon-holder{
+    padding:0.2rem;
+}
+.booking-heading-holder{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+.booking-heading{
+    text-align: center;
+    font-size:0.7rem ;
+    padding: 0;
+    margin: 0;
+}
+.booking-offer-holder{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:3 rem;
+    background-color: green;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.7rem;
+}
+.prebooking-icon-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:auto;
+    height: 100%;
+}
+.available{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    
+}
+.available-heading{
+    color:white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size:0.7rem;
+}
+.percentage-icon-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width:1.8rem;
+    height:1.8rem;
+    border-radius: 2rem;
+    background-color: white;
+    margin: 0.4rem;
+}
+.percentage-icon{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color:green;
+    font-weight: bold;
+}
+.percentage-text-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width:90%;
+    height:3 rem;
+}
+.percentage-text{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:0.7rem ;
+    padding: 0;
+    margin: 0;
+}
+.bank-offer-holder{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    height:3rem;
+    color:green;
+    font-weight: bold;
+    background-color: rgb(176, 246, 176);
+    border-radius: 0.7rem;
+}
+.text-scanner-container{
+    height:40vh;
+    width:100%;
+    
+}
+.black-container{
+    height:40vh;
+    width:100%;
+    margin-top:1.5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-black-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width:65%;
+    padding-left:10rem;
+}
+.icon-swiggy-heading-holder{
+    height:3rem;
+    width:24%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon-swiggy-holder{
+    height:70%;
+    width:20%;
+    display: flex;
+    margin:0;
+    padding:0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 0.5rem;
+}
+.iconswiggy{
+    font-size:1.2rem;
+    color: white;
+}
+.swiggy-heading-holder{
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.swiggy-heading2{
+    color:orangered;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+.text-black-heading1{
+    color:white;
+    font-size: 3rem;
+
+}
+.text-black-heading2{
+    color:lightgray;
+    font-size: 1.2rem;
+
+}
+.scan-text{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.phoneimage-container{
+    display: flex;
+    height: 100%;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+}
+.phone-image{
+    height: 18.5rem;
+    width:15rem;
+}
+.cities-food-grocery-delivery{
+    height:80vh;
+    width:100%;
+}
+.cities-food-delivery-holder{
+    height:30vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:1%;
+}
+.cities-food-delivery-heading{
+    margin:3rem;
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.order-food-button{
+    width:20%;
+    height:4rem;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.1rem solid grey;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bold;
+}
+.drop-down-icon{
+    font-size:1.5rem;
+    text-align: center;
+    color: orangered;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    background-color:lightgrey ;
+}
+.footer-section{
+    height:80vh;
+    width:90%;
+    margin-top:3rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-swiggy-icon-holder{
+    height:10vh;
+    width:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swiggy-icon-container2{
+    border:1rem solid orangered;
+    height:3.5rem;
+    width: 3.5rem;
+    margin-right:1rem;
+}
+.swiggyicon2{
+    font-size:2.3rem ;
+}
+.swiggy-icon-heading2{
+    color:orangered;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.swiggy-details-container{
+    height:60%;
+    width:75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.company-holder{
+    display: flex;
+    flex-direction: column;
+}
+.contactus-legal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contactus-container{
+    display: flex;
+    flex-direction: column;
+}
+.legal-container{
+    display: flex;
+    flex-direction: column;
+}
+.cities-button{
+    border:0.1rem solid grey;
+    border-radius: 0.1rem;
+}
+.drop-down-icon2 {
+    color:grey;
+}
+.lifeatswiggy-sociallinks-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lifeatswiggy-container{
+    display: flex;
+    flex-direction: column;
+}
+.sociallinks-text-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sociallinks-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sociallink-icon{
+    font-size: 1.5rem;
+}
+.details-heading{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.break-line2{
+    height:0.1rem;
+    width: 80%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+
+}
+.details{
+    font-size: 1.2rem;
+}
+.download-apps-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:30vh;
+    width:70%;
+}
+.download-heading{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.appstore-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:5rem;
+    width:13rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding:1rem;
+}
+.playstore-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:5rem;
+    width:13rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding:1rem;
+}
+.apple-icon{
+    color: white;
+    font-size:2.5rem;
+}
+.google-icon{
+    color: white;
+    font-size:2rem;
+}
+.text-appstore-holder{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-playstore-holder{
+    display: flex;
+    flex-direction: column;
+
+}
+.text1{
+    color:white;
+    font-weight:bold;
+    padding: 0;
+    margin: 0;
+
+}
+.text2{
+    color:white;
+    font-weight:bold;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+.dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        background-size: cover;
+        background-attachment: fixed; 
+        background-repeat: no-repeat;
+    }
+    .top-four-headings{
+        display:none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-top:1rem;
+    }
+
+    .dropdown-toggle {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  border-radius: 0.7rem;
+}
+
+    .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  min-width: 140px;
+  z-index: 1000;
+  flex-direction: column;
+}
+
+
+    .dropdown-menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+    .dropdown-menu a:hover {
+  background-color: #555;
+}
+#toggle-dropdown:checked ~ .dropdown-menu {
+  display: flex;
+}
+   
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .swiggy-icon-heading-container{
+        width:40%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .swiggy-icon-container{
+        width:2rem;
+        height:2rem;
+        border-radius: 0.2rem;
+    }
+    .swiggyicon{
+        font-size: 1.5rem;
+    }
+    .swiggy-icon-heading{
+        margin-top: 0.5rem;
+        margin-left:0.3rem;
+        font-size: 1.3rem;
+    }
+    .swiggy-content-holder{
+        width:100%;
+    }
+    .swiggy-heading{
+        font-size: 1rem;
+    }
+    .location-search-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        height:25%;
+        gap:1rem;
+        
+    }
+    .location-container{
+        display: flex;
+        justify-content: flex-start;
+        width:100%;
+        height:3rem;
+        align-items: center;
+        margin:0;
+    }
+    .search-container{
+        width: 100%;
+        height:3rem;
+    }
+    .location-icon{
+        
+        height:1.5rem;
+        width:1.5rem;
+    }
+    .locicon{
+        font-size: 1.3rem;
+    }
+    .location-dropdown{
+        display: flex;
+        flex:1;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .delivery-location{
+        width:100%;
+        font-size: 0.8rem;
+    }
+    .input-holder{
+        font-size:0.8rem;
+    }
+    .search-icon-container{
+        width:8%;
+    }
+    .searchicon{
+        font-size: 1rem;
+    }
+    .cards-container{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        gap:0.5rem;
+    }
+    .card{
+        width:90%;
+    }
+    .card-heading{
+        font-size:1.9rem;
+    }
+    .card-side-heading{
+        font-size: 1.5rem;
+    }
+    .offer-heading{
+        font-size: 0.8rem;
+    }
+    .offer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:6rem;
+        height:2rem;
+    }
+    .arrow-button-container{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 2rem;
+    }
+    .arrow-button{
+        font-size: 1.3rem;
+    }
+    .food-image-container{
+        height:5rem;
+        width:7rem;
+    }
+    .card-image{
+        width:100%;
+        height:100%;
+    }
+    .break-line{
+        height:0.3rem;
+        margin-bottom:0.5rem;
+    }
+    .restaurant-heading{
+        font-size: 1rem;
+    }
+    .restaurant-card-container{
+        width:auto;
+    }
+    .black-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .text-black-container{
+        width:65%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start; 
+        flex-direction: column; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        padding-left: 0;
+    }
+    .icon-swiggy-heading-holder{
+        display:none;
+        
+    }
+    .text-black-heading1{
+        font-size: 1rem;
+    }
+    .text-black-heading2{
+ 
+        font-size: 0.8rem;
+    }
+    .scan-text{
+        font-size: 1rem;
+    }
+
+    .phoneimage-container{
+        width:25%;
+        padding: 0.5rem;
+        justify-content: center;
+    }
+    .phone-image{
+        height:50%;
+        margin-right: 2rem;
+    }
+    .cities-food-delivery-heading{
+        font-size: 1rem;
+    }
+    .order-food-button{
+        font-size: 0.5rem;
+        font-weight:normal;
+        border-radius: 0.3rem;
+    }
+    .cities-food-delivery-holder{
+        margin-bottom: 1rem;
+    }
+    .last-section{
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .footer-section{
+        padding: 0;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .footer-swiggy-icon-holder{
+        display:none;
+        
+
+    }
+    
+    .swiggy-icon-heading-container{
+        margin:0;
+    }
+    .swiggy-icon-container2{
+        height:2.5rem;
+        width:2.5rem;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiggyicon2{
+        font-size: 2rem;
+    }
+    .swiggy-icon-heading2{
+        font-size: 1.5rem;
+    }
+    .swiggy-details-container{
+        width:75%;
+        margin-right: 0;
+        gap:0.7rem;
+    }
+    .details-heading{
+        font-size: 0.6rem;
+    }
+    .details{
+        font-size: 0.6rem;
+    }
+    .cities-button{
+       font-size: 0.5rem;
+    }
+    .sociallink-icon{
+        font-size: 0.6rem;
+    }
+    .download-apps-container{
+        width:90%;
+    }
+    .download-heading{
+        font-size: 0.5rem;
+    }
+    .apple-icon{
+        font-size: 1rem;
+        margin-right:0.2rem;
+    }
+    .google-icon{
+        font-size: 1rem;
+        margin-right:0.2rem;
+    }
+    .text1{
+        font-size: 0.4rem;
+    }
+    .text2{
+        font-size: 0.5rem;
+    }
+    .appstore-holder{
+        height:3rem;
+        width:auto;
+        margin-right:0.2rem;
+    }
+    .playstore-holder{
+        height:3rem;
+        width:auto;
+        margin-right:0.5rem;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .swiggy-icon-heading-container{
+        width:17%;
+    }
+    .swiggy-icon-container{
+        width:2.5rem;
+        height:2.5rem;
+        border-radius: 0.3rem;
+    }
+    .swiggyicon{
+        font-size:1.7rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.5rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.2rem;
+    }
+    .top-four-headings{
+        min-width:65%;
+    }
+    .two-swiggy-sideheading{
+        font-size: 0.65rem;
+        margin-top: 0.7rem;
+        font-weight: normal;
+        margin-left: 0.15rem;
+    }
+    .getapp-button{
+        font-size: 0.65rem;
+        height: 2.2rem;
+        width: 5rem;
+        border-radius: 0.4rem;
+    }
+    .signin-button {
+        font-size: 0.7rem;
+        height: 2.2rem;
+        width: 6rem; 
+        border-radius: 0.4rem;
+        min-width: 6rem; 
+        margin-left: 0.3rem;
+        padding: 0 0.5rem; 
+        box-sizing: border-box;
+    }
+    .swiggy-content-holder{
+        width:100%;
+    }
+    .swiggy-heading{
+        font-size: 1.5rem;
+    }
+    .location-container{
+        width:40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container{
+        width: 45%;
+    }
+    .location-icon{
+        
+        height:1.5rem;
+        width:1.5rem;
+    }
+    .locicon{
+        font-size: 1.3rem;
+    }
+    .location-dropdown{
+        justify-content: flex-start;
+       
+    }
+    .delivery-location{
+        width:13.5rem;
+        font-size: 0.8rem;
+    }
+    .input-holder{
+        font-size:0.8rem;
+    }
+    .search-icon-container{
+        width:8%;
+    }
+    .searchicon{
+        font-size: 1rem;
+    }
+    .cards-container{
+        width: 100%;
+        justify-content: space-between;
+        gap:0.5rem;
+    }
+    .card-heading{
+        font-size:1.5rem;
+    }
+    .card-side-heading{
+        font-size: 1rem;
+    }
+    .offer-heading{
+        font-size: 0.7rem;
+    }
+    .offer-container{
+        width:5rem;
+        height:1.5rem;
+    }
+    .arrow-button-container{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+    }
+    .arrow-button{
+        font-size: 1rem;
+    }
+    .card-image{
+    height:5rem;
+    width:8rem;
+    }
+    .break-line{
+        margin: 0;
+        margin-bottom: 1rem;
+        width:90%;
+        height: 0.5rem;
+    }
+    .restaurant-heading{
+        font-size:1.5rem;
+    }
+    .restaurant-card-container{
+        width:70% ;
+    }
+    .icon-swiggy-heading-holder{
+        width:10rem;
+    }
+    .black-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .text-black-container{
+        width:65%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start; 
+        flex-direction: column; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        padding-left: 0;
+    }
+    .text-black-heading1{
+        font-size: 1.5rem;
+    }
+    .text-black-heading2{
+        font-size: 1.1rem;
+    }
+    .scan-text{
+        font-size: 1rem;
+    }
+
+    .phoneimage-container{
+        width:30%;
+        padding: 0.5rem;
+    }
+    .phone-image{
+        height:100%;
+    }
+    .cities-food-delivery-holder{
+        margin-bottom:0.5rem;
+    }
+    .cities-food-delivery-heading{
+        font-size:1.3rem;
+    }
+    .order-food-button{
+        height:3rem;
+        width:10rem;
+        font-size: 0.7rem;
+        font-weight: normal;
+    }
+    .last-section{
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .footer-section{
+        padding: 0;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .footer-swiggy-icon-holder{
+        padding: 0;
+        margin: 0;
+        width:20%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+
+    }
+    .swiggy-icon-heading-container{
+        margin:0;
+    }
+    .swiggy-icon-container2{
+        height:2.5rem;
+        width:2.5rem;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiggyicon2{
+        font-size: 2rem;
+    }
+    .swiggy-icon-heading2{
+        font-size: 1.5rem;
+    }
+    .swiggy-details-container{
+        width:75%;
+        margin-right: 0;
+
+    }
+    .details-heading{
+        font-size: 0.9rem;
+    }
+    .details{
+        font-size: 0.9rem;
+    }
+    .cities-button{
+       font-size: 0.8rem;
+    }
+    .sociallink-icon{
+        font-size: 1rem;
+    }
+    .download-apps-container{
+        width:90%;
+    }
+    .download-heading{
+        font-size: 1rem;
+    }
+    .apple-icon{
+        font-size: 1.5rem;
+    }
+    .google-icon{
+        font-size: 1.5rem;
+    }
+    .text1{
+        font-size: 0.6rem;
+    }
+    .text2{
+        font-size: 0.7rem;
+    }
+    .appstore-holder{
+        height:4rem;
+        width:9.7rem;
+        margin-right:0.2rem;
+    }
+    .playstore-holder{
+        height:4rem;
+        width:9.3rem;
+        margin-right:0.5rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .swiggy-icon-heading-container{
+        width:14%;
+    }
+    .swiggy-icon-container{
+        width:2.5rem;
+        height:2.5rem;
+        border-radius: 0.3rem;
+    }
+    .swiggyicon{
+        font-size: 1.5rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.5rem;
+    }
+    .top-four-headings{
+        width:55%;
+    }
+    .two-swiggy-sideheading{
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        margin-left: 0.15rem;
+    }
+    .getapp-button{
+        font-size: 0.7rem;
+        height:2.5rem;
+        width: 6rem;
+        border-radius: 0.4rem;
+    }
+    .signin-button{
+        font-size: 0.7rem;
+        height:2.5rem;
+        width: 4rem;
+        border-radius: 0.4rem;
+        margin-left: 0.3rem;
+    }
+    .swiggy-content-holder{
+        width:100%;
+    }
+    .swiggy-heading{
+        font-size: 2rem;
+    }
+    .location-container{
+        width:30%;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container{
+        width: 35%;
+    }
+    .location-icon{
+        
+        height:1.5rem;
+        width:1.5rem;
+    }
+    .locicon{
+        font-size: 1.3rem;
+    }
+    .location-dropdown{
+        justify-content: flex-start;
+       
+    }
+    .delivery-location{
+        width:13.5rem;
+        font-size: 0.9rem;
+    }
+    .input-holder{
+        font-size:0.8rem;
+    }
+    .search-icon-container{
+        width:8%;
+    }
+    .searchicon{
+        font-size: 1rem;
+    }
+    .cards-container{
+        width: 100%;
+        justify-content:center;
+        gap:1rem;
+    }
+    .card{
+        width:25%;
+    }
+    .card-heading{
+        font-size:1.5rem;
+    }
+    .card-side-heading{
+        font-size: 1rem;
+    }
+    .offer-heading{
+        font-size: 0.7rem;
+    }
+    .offer-container{
+        width:5rem;
+        height:1.5rem;
+    }
+    .arrow-button-container{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+    }
+    .arrow-button{
+        font-size: 1rem;
+    }
+    .card-image{
+    height:5rem;
+    width:8rem;
+    }
+    .break-line{
+        margin: 0;
+        margin-bottom: 1rem;
+        width:90%;
+        height: 0.5rem;
+    }
+    .restaurant-heading{
+        font-size:1.5rem;
+    }
+    .restaurant-card-container{
+        width:70% ;
+    }
+    .icon-swiggy-heading-holder{
+        width:10rem;
+    }
+    .black-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .text-black-container{
+        width:65%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start; 
+        flex-direction: column; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        padding-left: 0;
+    }
+    .text-black-heading1{
+        font-size: 1.5rem;
+    }
+    .text-black-heading2{
+        font-size: 1.1rem;
+    }
+    .scan-text{
+        font-size: 1rem;
+    }
+
+    .phoneimage-container{
+        width:30%;
+        padding: 0.5rem;
+    }
+    .phone-image{
+        height:100%;
+    }
+    .cities-food-delivery-holder{
+        margin-bottom:0.5rem;
+    }
+    .cities-food-delivery-heading{
+        font-size:1.5rem;
+        font-weight: bold;
+    }
+    .order-food-button{
+        height:3rem;
+        width:10rem;
+        font-size: 0.7rem;
+        font-weight: normal;
+    }
+    .last-section{
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .footer-section{
+        padding: 0;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .footer-swiggy-icon-holder{
+        padding: 0;
+        margin: 0;
+        width:20%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+
+    }
+    .swiggy-icon-heading-container{
+        margin:0;
+    }
+    .swiggy-icon-container2{
+        height:2.5rem;
+        width:2.5rem;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiggyicon2{
+        font-size: 2rem;
+    }
+    .swiggy-icon-heading2{
+        font-size: 1.5rem;
+    }
+    .swiggy-details-container{
+        width:75%;
+        margin-right: 0;
+
+    }
+    .details-heading{
+        font-size: 0.9rem;
+    }
+    .details{
+        font-size: 0.9rem;
+    }
+    .cities-button{
+       font-size: 0.8rem;
+    }
+    .sociallink-icon{
+        font-size: 1rem;
+    }
+    .download-apps-container{
+        width:90%;
+    }
+    .download-heading{
+        font-size: 1.2rem;
+    }
+    .apple-icon{
+        font-size: 1.5rem;
+    }
+    .google-icon{
+        font-size: 1.5rem;
+    }
+    .text1{
+        font-size: 0.6rem;
+    }
+    .text2{
+        font-size: 0.7rem;
+    }
+    .appstore-holder{
+        height:4rem;
+        width:9.7rem;
+        margin-right:0.2rem;
+    }
+    .playstore-holder{
+        height:4rem;
+        width:9.3rem;
+        margin-right:0.5rem;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .swiggy-icon-heading-container{
+        width:12%;
+    }
+    .swiggy-icon-container{
+        width:2.5rem;
+        height:2.5rem;
+        border-radius: 0.3rem;
+    }
+    .swiggyicon{
+        font-size: 2rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.3rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.5rem;
+    }
+    .top-four-headings{
+        width:60%;
+    }
+    .two-swiggy-sideheading{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: 0.15rem;
+    }
+    .getapp-button{
+        font-size: 1rem;
+        height:2.5rem;
+        width: 7.5rem;
+        border-radius: 0.4rem;
+    }
+    .signin-button{
+        font-size: 1rem;
+        height:2.5rem;
+        width: 2.3rem;
+        margin-left: 0.3rem;
+         border-radius: 0.4rem;
+    }
+    .swiggy-content-holder{
+        width:100%;
+    }
+    .swiggy-heading{
+        font-size: 2rem;
+    }
+    .location-container{
+        width:30%;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container{
+        width: 35%;
+    }
+    .location-icon{
+        
+        height:2rem;
+        width:2rem;
+    }
+    .locicon{
+        font-size: 1.8rem;
+    }
+    .location-dropdown{
+        justify-content: flex-start;
+       
+    }
+    .delivery-location{
+        width:13.5rem;
+        font-size: 1rem;
+    }
+    .input-holder{
+        font-size:1rem;
+    }
+    .search-icon-container{
+        width:8%;
+    }
+    .searchicon{
+        font-size: 1.5rem;
+    }
+    .cards-container{
+        width: 100%;
+        justify-content:center;
+        gap:1rem;
+    }
+    .card{
+        width:25%;
+    }
+    .card-heading{
+        font-size:1.5rem;
+    }
+    .card-side-heading{
+        font-size: 1rem;
+    }
+    .offer-heading{
+        font-size: 0.7rem;
+    }
+    .offer-container{
+        width:5rem;
+        height:1.5rem;
+    }
+    .arrow-button-container{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+    }
+    .arrow-button{
+        font-size: 1rem;
+    }
+    .card-image{
+    height:5rem;
+    width:8rem;
+    }
+    .break-line{
+        margin: 0;
+        margin-bottom: 1rem;
+        width:90%;
+        height: 0.5rem;
+    }
+    .restaurant-heading{
+        font-size:1.5rem;
+    }
+    .restaurant-card-container{
+        width:70% ;
+    }
+    .icon-swiggy-heading-holder{
+        width:10rem;
+    }
+    .black-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .text-black-container{
+        width:65%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start; 
+        flex-direction: column; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        padding-left: 0;
+    }
+    .text-black-heading1{
+        font-size: 1.9rem;
+    }
+    .text-black-heading2{
+        font-size: 1.4rem;
+    }
+    .scan-text{
+        font-size: 1.2rem;
+    }
+
+    .phoneimage-container{
+        width:30%;
+        padding: 0.5rem;
+    }
+    .phone-image{
+        height:100%;
+    }
+    .cities-food-delivery-holder{
+        margin-bottom:0.5rem;
+    }
+    .cities-food-delivery-heading{
+        font-size:1.5rem;
+        font-weight: bold;
+    }
+    .order-food-button{
+        height:3rem;
+        width:10rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    .last-section{
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .footer-section{
+        padding: 0;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .footer-swiggy-icon-holder{
+        padding: 0;
+        margin: 0;
+        width:20%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+
+    }
+    .swiggy-icon-heading-container{
+        margin:0;
+    }
+    .swiggy-icon-container2{
+        height:2.5rem;
+        width:2.5rem;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiggyicon2{
+        font-size: 2rem;
+    }
+    .swiggy-icon-heading2{
+        font-size: 1.5rem;
+    }
+    .swiggy-details-container{
+        width:75%;
+        margin-right: 0;
+
+    }
+    .details-heading{
+        font-size: 1rem;
+    }
+    .details{
+        font-size: 1rem;
+    }
+    .cities-button{
+       font-size: 0.8rem;
+    }
+    .sociallink-icon{
+        font-size: 1.3rem;
+    }
+    .download-apps-container{
+        width:80%;
+    }
+    .download-heading{
+        font-size: 1.5rem;
+    }
+    .apple-icon{
+        font-size: 1.5rem;
+    }
+    .google-icon{
+        font-size: 1.5rem;
+    }
+    .text1{
+        font-size: 0.6rem;
+    }
+    .text2{
+        font-size: 0.7rem;
+    }
+    .appstore-holder{
+        height:4rem;
+        width:9.7rem;
+        margin-right:0.2rem;
+    }
+    .playstore-holder{
+        height:4rem;
+        width:9.3rem;
+        margin-right:0.5rem;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .swiggy-icon-heading-container{
+        width:10%;
+    }
+    .swiggy-icon-container{
+        width:2.5rem;
+        height:2.5rem;
+        border-radius: 0.3rem;
+    }
+    .swiggyicon{
+        font-size:2rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.5rem;
+    }
+    .top-four-headings{
+        width:60%;
+    }
+    .two-swiggy-sideheading{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: 0.15rem;
+    }
+    .getapp-button{
+        font-size: 1rem;
+        width: 7.5rem;
+        height:3rem;
+        border-radius: 0.7rem;
+    }
+    .signin-button{
+        font-size: 1rem;
+        width: 6rem;
+        margin-left: 0.3rem;
+        height:3rem;
+        border-radius: 0.7rem;
+    }
+    .swiggy-content-holder{
+        width:100%;
+    }
+    .swiggy-heading{
+        font-size: 2.5rem;
+    }
+    .location-container{
+        width:30%;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container{
+        width: 35%;
+    }
+    .location-icon{
+        
+        height:2rem;
+        width:2rem;
+    }
+    .locicon{
+        font-size: 1.8rem;
+    }
+    .location-dropdown{
+        justify-content: flex-start;
+       
+    }
+    .delivery-location{
+        width:21rem;
+        font-size: 1.3rem;
+    }
+    .input-holder{
+        font-size:1.3rem;
+    }
+    .search-icon-container{
+        width:8%;
+    }
+    .searchicon{
+        font-size: 1.5rem;
+    }
+    .cards-container{
+        width: 80%;
+        justify-content:center;
+        gap:1rem;
+    }
+    .card{
+        width:25%;
+        height:25rem;
+    }
+    .card-heading{
+        font-size:1.5rem;
+    }
+    .card-side-heading{
+        font-size: 1rem;
+    }
+    .offer-heading{
+        font-size: 0.7rem;
+    }
+    .offer-container{
+        width:5rem;
+        height:1.5rem;
+    }
+    .arrow-button-container{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+    }
+    .arrow-button{
+        font-size: 1rem;
+    }
+    .card-image{
+    height:5rem;
+    width:8rem;
+    }
+    .break-line{
+        margin: 0;
+        margin-bottom: 1rem;
+        width:90%;
+        height: 0.5rem;
+    }
+    .restaurant-heading{
+        font-size:1.5rem;
+    }
+    .restaurant-card-container{
+        width:70% ;
+    }
+    .icon-swiggy-heading-holder{
+        width:10rem;
+    }
+    .black-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .text-black-container{
+        width:65%;
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+        flex-direction: column; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        padding-left: 0;
+    }
+    .text-black-heading1{
+        font-size: 2.1rem;
+    }
+    .text-black-heading2{
+        font-size: 1.7rem;
+    }
+    .scan-text{
+        font-size: 1.4rem;
+    }
+    .phoneimage-container{
+        width:30%;
+        padding: 0.5rem;
+    }
+    .phone-image{
+        height:100%;
+    }
+    .cities-food-delivery-holder{
+        margin-bottom:0.5rem;
+    }
+    .cities-food-delivery-heading{
+        font-size:1.5rem;
+        font-weight: bold;
+    }
+    .order-food-button{
+        height:3rem;
+        width:10rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    .last-section{
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .footer-section{
+        padding: 0;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .footer-swiggy-icon-holder{
+        padding: 0;
+        margin: 0;
+        width:20%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+
+    }
+    .swiggy-icon-heading-container{
+        margin:0;
+    }
+    .swiggy-icon-container2{
+        height:2.5rem;
+        width:2.5rem;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiggyicon2{
+        font-size: 2rem;
+    }
+    .swiggy-icon-heading2{
+        font-size: 1.5rem;
+    }
+    .swiggy-details-container{
+        width:75%;
+        margin-right: 0;
+
+    }
+    .details-heading{
+        font-size: 1rem;
+    }
+    .details{
+        font-size: 1rem;
+    }
+    .cities-button{
+       font-size: 0.8rem;
+    }
+    .sociallink-icon{
+        font-size: 1.3rem;
+    }
+    .download-apps-container{
+        width:85%;
+    }
+
+    .download-heading{
+        font-size: 1.5rem;
+    }
+    .apple-icon{
+        font-size: 1.5rem;
+    }
+    .google-icon{
+        font-size: 1.5rem;
+    }
+    .text1{
+        font-size: 0.6rem;
+    }
+    .text2{
+        font-size: 0.7rem;
+    }
+    .appstore-holder{
+        height:4rem;
+        width:9.7rem;
+        display:flex;
+        justify-content: space-around;
+
+    }
+    .playstore-holder{
+        height:4rem;
+        width:9.3rem;
+        display:flex;
+        justify-content: space-around;
+
+    }
+}
+@media screen and (min-width: 1400px){
+    .swiggy-icon-heading-container{
+        width:9%;
+    }
+    .swiggy-icon-container{
+        width:2.5rem;
+        height:2.5rem;
+        border-radius: 0.3rem;
+    }
+    .swiggyicon{
+        font-size:1.7rem;
+    }
+    .swiggy-icon-heading{
+        font-size: 1.5rem;
+    }
+    .icon-swiggy-heading-holder{
+        width:10rem;
+    }
+    .black-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .text-black-container{
+        width:65%;
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+        flex-direction: column; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        padding-left: 0;
+    }
+    .text-black-heading1{
+        font-size: 2.1rem;
+    }
+    .text-black-heading2{
+        font-size: 1.7rem;
+    }
+    .scan-text{
+        font-size: 1.4rem;
+    }
+    .phoneimage-container{
+        width:30%;
+        padding: 0.5rem;
+    }
+    .phone-image{
+        height:100%;
+    }
+    .download-apps-container{
+        width:85%;
+    }
+    .download-heading{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .restaurants-container{
+        height:50vh;
+        margin-top:0;
+        padding:0.3rem;
+    }
+    .restaurant-card-container{
+        width:100%;
+        height:45vh;
+    }
+    .restaurant-name{
+        font-size: 0.7rem;
+    }
+    .star-icon-container{
+        height: 1rem;
+        width: 1rem;
+    }
+    .star-icon{
+        font-size: 0.5rem;
+    }
+    .rating-container{
+        width:2.7rem;
+    }
+    .rating{
+        font-size: 0.7rem;
+    }
+    .food-type-holder{
+        font-size: 0.7rem;
+    }
+    .address{
+        font-size: 0.7rem;
+    }
+    .distance{
+        font-size: 0.7rem;
+    }
+    .table-booking-holder{
+        width:50%;
+        height:0.95rem;
+    }
+    .booking-heading{
+        font-size: 0.7rem;
+    }
+    .booking-icon{
+        font-size: 0.8rem;
+    }
+    .percentage-icon-container{
+        height:1rem;
+        width:1rem;
+    }
+    .percentage-icon{
+        font-size:0.5rem;
+    }
+    .percentage-text{
+        font-size: 0.5rem;
+    }
+    .available-heading{
+        font-size: 0.5rem;
+    }
+    .bank-offer-holder{
+        display: none;
+    }
+}
